@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/login"
+            android:icon="@drawable/baseline_login_24"
+            android:title="@string/login"/>
+        <item android:id="@+id/follow"
+            android:icon="@drawable/baseline_insert_link_24"
+            android:title="@string/follow_insta"
+            android:menuCategory="container"/>
+        <item android:id="@+id/storage"
+            android:icon="@drawable/baseline_storage_24"
+            android:title="@string/location"/>
+        <item android:id="@+id/notify"
+            android:icon="@drawable/baseline_notifications_24"
+            android:title="@string/notify_me"/>
+    </group>
+
+</menu>
